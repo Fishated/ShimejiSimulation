@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+header.cover {
+  background: url('assets/images/cover.jpg') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+header h1 { font-size: 3em; margin: 0; }
+header p { font-size: 1.5em; }
+.chapter-list { padding: 20px; max-width: 800px; margin: auto; }
+.chapter-list ul { list-style: none; padding: 0; }
+.chapter-list li { margin: 10px 0; }
+.chapter-list a {
+  color: #00ccff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.chapter-list a:hover { text-decoration: underline; }
